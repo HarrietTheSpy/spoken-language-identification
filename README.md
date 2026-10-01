@@ -64,14 +64,43 @@ These features capture both the short-term spectral content of speech and its te
 
 ## Machine Learning Models
 
-Three supervised classification approaches were evaluated.
+Three supervised classification models were implemented and compared to evaluate how different learning strategies handled multilingual acoustic features.
 
-### Support Vector Machine
+## Support Vector Machine
 
-A multiclass SVM was implemented using MATLAB's Error-Correcting
-Output Codes framework.
-
-MATLAB:
+A multiclass Support Vector Machine was implemented using MATLAB's Error-Correcting Output Codes (ECOC) framework:
 
 ```matlab
 fitcecoc()
+```
+
+The SVM was selected because it performs well in high-dimensional feature spaces and can create robust decision boundaries between classes with overlapping acoustic characteristics.
+
+## K-Nearest Neighbors
+
+K-nearest neighbor was implemented using:
+
+```matlab
+fitcknn()
+```
+
+KNN classifies a sample based on the labels of nearby training examples in the feature space.
+The number of neighbors, k, was varied to study the tradeoff between sensitivity to local acoustic patterns and overall generalization.
+
+## Decision Tree
+
+The Decision Tree classifier was implemented using:
+
+```matlab
+fitctree()
+```
+
+Decision Trees provide an interpretable rule-based classification structure that makes it possible to examine how acoustic features contribute to classification decisions.
+
+Tree complexity was varied to evaluate the tradeoff between model flexibility, interpretability, and overfitting.
+
+
+Commit message:
+
+```text
+Improve machine learning model descriptions
