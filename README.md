@@ -101,5 +101,3 @@ fitctree()
 Decision Trees provide an interpretable rule-based classification structure that makes it possible to examine how acoustic features contribute to classification decisions.
 
 Tree complexity was varied to evaluate the tradeoff between model flexibility, interpretability, and overfitting.
-
-Complete machine learning models section
