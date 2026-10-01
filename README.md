@@ -168,3 +168,18 @@ Core technical areas included:
 - Hyperparameter tuning
 - Model evaluation
 - Data preprocessing
+
+## Project Structure
+
+The repository is organized to separate preprocessing, model training, experimentation, results, and supporting documentation.
+
+```text
+spoken-language-identification/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── src/
+├── experiments/
+├── results/
+├── docs/
+└── data/
