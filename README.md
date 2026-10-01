@@ -118,3 +118,18 @@ Additional experiments examined how performance changed with:
 - Acoustic variability across speakers and recordings
 
 This experimental structure made it possible to evaluate both model accuracy and how well each classifier scaled as the classification task became more complex.
+
+## Evaluation
+
+Model performance was evaluated using multiple metrics to capture both overall accuracy and class-specific behavior.
+
+The evaluation included:
+
+- Classification accuracy
+- Confusion matrices
+- Precision-recall analysis
+- Class-specific error analysis
+
+Performance was compared across the two-, three-, and six-language experiments to examine how each classifier responded as the number of target classes increased.
+
+Confusion matrices were used to identify which language pairs were most frequently misclassified, while precision-recall analysis provided additional insight into class-specific performance.
