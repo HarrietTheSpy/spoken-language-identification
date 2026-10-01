@@ -133,3 +133,17 @@ The evaluation included:
 Performance was compared across the two-, three-, and six-language experiments to examine how each classifier responded as the number of target classes increased.
 
 Confusion matrices were used to identify which language pairs were most frequently misclassified, while precision-recall analysis provided additional insight into class-specific performance.
+
+## Results and Key Findings
+
+The experiments showed that classification performance generally decreased as the number of target languages increased, reflecting greater overlap between acoustic feature distributions in the multiclass setting.
+
+Key observations included:
+
+- **SVM** performed particularly well on the two-language classification task and produced strong class separation in several multiclass experiments.
+- **KNN** benefited substantially from increased training data, as additional samples provided more representative local neighborhoods for classification.
+- **Decision Trees** generally achieved lower classification performance than SVM and KNN but provided greater interpretability through their rule-based structure.
+- Misclassification increased as additional languages were introduced, particularly where languages shared similar acoustic or phonetic characteristics.
+- Increasing training data generally improved classifier performance, although the amount of improvement varied by model.
+
+These results highlight the tradeoff between classification accuracy, scalability, model complexity, and interpretability when using classical machine learning methods for spoken language identification.
