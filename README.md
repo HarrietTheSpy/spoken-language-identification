@@ -183,3 +183,20 @@ spoken-language-identification/
 ├── results/
 ├── docs/
 └── data/
+```
+## Data
+
+Speech recordings for this project were obtained from the Mozilla Common Voice dataset.
+
+The repository does not include the full raw audio dataset because of its size. Instead, the project is designed so that the dataset can be downloaded separately and processed using the preprocessing pipeline included in the repository.
+
+The selected languages were:
+
+- English
+- Spanish
+- Mandarin Chinese
+- Arabic
+- Tamil
+- Japanese
+
+All audio samples used in the experiments were standardized to a 16 kHz sampling rate and converted to mono before feature extraction.
