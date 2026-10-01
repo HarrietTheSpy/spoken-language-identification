@@ -213,3 +213,17 @@ Potential extensions of this project include:
 - Expanding the number of supported languages
 - Measuring speaker-independent generalization
 - Developing a real-time spoken language identification pipeline
+
+## Author
+
+Harriet Medrozo Gillen
+M.S. Electrical and Computer Engineering Candidate  
+Georgia Institute of Technology
+
+Areas of focus:
+
+- Digital signal processing
+- Machine learning
+- Speech processing
+- Statistical signal analysis
+- Engineering verification and validation
