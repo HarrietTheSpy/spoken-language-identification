@@ -42,8 +42,6 @@ phonological, and rhythmic diversity.
 
 ## Signal Processing Pipeline
 
-## Signal Processing Pipeline
-
 Each audio recording was standardized before feature extraction to ensure consistent processing across speakers, languages, and recording conditions.
 
 The preprocessing pipeline included:
