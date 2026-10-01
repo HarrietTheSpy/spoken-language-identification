@@ -101,3 +101,20 @@ fitctree()
 Decision Trees provide an interpretable rule-based classification structure that makes it possible to examine how acoustic features contribute to classification decisions.
 
 Tree complexity was varied to evaluate the tradeoff between model flexibility, interpretability, and overfitting.
+
+## Experimental Design
+
+Classifier performance was evaluated under increasing classification complexity using three language-set configurations:
+
+- **Two-language classification:** English and Mandarin
+- **Three-language classification:** English, Mandarin, and Spanish
+- **Six-language classification:** English, Spanish, Mandarin, Arabic, Tamil, and Japanese
+
+Additional experiments examined how performance changed with:
+
+- Number of target languages
+- Training dataset size
+- Classifier hyperparameters
+- Acoustic variability across speakers and recordings
+
+This experimental structure made it possible to evaluate both model accuracy and how well each classifier scaled as the classification task became more complex.
