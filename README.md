@@ -200,3 +200,16 @@ The selected languages were:
 - Japanese
 
 All audio samples used in the experiments were standardized to a 16 kHz sampling rate and converted to mono before feature extraction.
+
+## Future Work
+
+Potential extensions of this project include:
+
+- Evaluating neural-network-based classifiers
+- Using spectrogram or Mel-spectrogram image representations
+- Comparing CNN and recurrent neural network architectures
+- Testing transformer-based speech embeddings
+- Evaluating robustness to background noise and recording quality
+- Expanding the number of supported languages
+- Measuring speaker-independent generalization
+- Developing a real-time spoken language identification pipeline
