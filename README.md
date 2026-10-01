@@ -1,8 +1,6 @@
 # spoken-language-identification
 Spoken language identification using MFCC acoustic features and classical machine learning classifiers in MATLAB.
 
-# Spoken Language Identification Using Acoustic Features
-
 A machine learning system for identifying spoken languages from raw
 speech recordings using Mel-Frequency Cepstral Coefficients (MFCCs)
 and classical classification algorithms.
