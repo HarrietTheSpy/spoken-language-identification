@@ -42,15 +42,18 @@ phonological, and rhythmic diversity.
 
 ## Signal Processing Pipeline
 
-Audio recordings were standardized to:
+## Signal Processing Pipeline
 
-- 16 kHz sampling frequency
-- Mono channel
-- Short-time analysis using approximately 25 ms frames
-- 10 ms frame shift
+Each audio recording was standardized before feature extraction to ensure consistent processing across speakers, languages, and recording conditions.
 
-Acoustic features were extracted using Mel-Frequency Cepstral
-Coefficients.
+The preprocessing pipeline included:
+
+- Resampling audio to a 16 kHz sampling frequency
+- Converting recordings to a mono channel
+- Segmenting speech using approximately 25 ms analysis frames
+- Applying a 10 ms frame shift between consecutive frames
+
+Mel-Frequency Cepstral Coefficients (MFCCs) were then extracted to represent the spectral characteristics of the speech signal.
 
 The feature representation included:
 
@@ -59,8 +62,7 @@ The feature representation included:
 - Second-order temporal derivatives (Delta-Delta)
 - Energy-related features
 
-The resulting representation captures both spectral characteristics
-and short-term temporal behavior of speech.
+These features capture both the short-term spectral content of speech and its temporal variation, providing the classifiers with information related to pronunciation, rhythm, and acoustic structure.
 
 ## Machine Learning Models
 
