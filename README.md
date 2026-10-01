@@ -147,3 +147,24 @@ Key observations included:
 - Increasing training data generally improved classifier performance, although the amount of improvement varied by model.
 
 These results highlight the tradeoff between classification accuracy, scalability, model complexity, and interpretability when using classical machine learning methods for spoken language identification.
+
+## Technologies and Tools
+
+This project was implemented primarily in MATLAB using the following tools and libraries:
+
+- MATLAB
+- Audio Toolbox
+- Signal Processing Toolbox
+- Statistics and Machine Learning Toolbox
+- Mozilla Common Voice Dataset
+
+Core technical areas included:
+
+- Digital signal processing
+- Speech processing
+- Feature engineering
+- Supervised machine learning
+- Multiclass classification
+- Hyperparameter tuning
+- Model evaluation
+- Data preprocessing
